@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>Google Homepage</title>
+	</head>
+	<body>
+		<div class="navbar">
+			<span class="left-nav">
+				<a href="" class="nav-item">About</a>
+				<a href="" class="nav-item">Store</a>
+			</span>
+
+			<span class="right-nav">
+				<a href="" class="nav-item">Gmail</a>
+				<a href="" class="nav-item">Images</a>
+				<button id="sign-in">Sign In</button>
+			</span>
+		</div>
+		<div>
+			<img
+				class="logo"
+				src="google.jpeg"
+				alt="Google Logo"
+			/>
+		</div>
+
+		<div class="search-bar-container">
+			<input type="text" class="search-bar" />
+		</div>
+
+		<div class="search-buttons">
+			<button>Google Search</button>
+			<button>I'm Feeling Lucky</button>
+		</div>
+	</body>
+</html>
+
+<style>
+	.navbar {
+		margin-top: 25px;
+		height: 25px;
+	}
+	.nav-item {
+		text-decoration: solid;
+		color: rgb(54, 54, 54);
+	}
+
+	.right-nav {
+		float: right;
+	}
+
+	.left-nav {
+		float: left;
+	}
+
+	.logo {
+		margin-top: 200px;
+		margin-left: auto;
+		margin-right: auto;
+		display: block;
+	}
+
+	.search-bar-container {
+		width: 1200px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.search-bar {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 25px;
+		width: 550px;
+		border-radius: 15px;
+		height: 25px;
+		opacity: 0.3;
+		color: grey;
+	}
+
+	.search-buttons {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		height: 25px;
+		width: 250px;
+		margin-top: 10px;
+	}
+
+	#sign-in {
+		background-color: #096ae2bf;
+		color: white;
+		border-radius: 4px;
+		width: 75px;
+		height: 35px;
+		border-style: none;
+		margin-left: 10px;
+	}
+</style>

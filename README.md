@@ -1,0 +1,1 @@
+This is my first assignment for the Odin Project. I will be creating a clone of Google's homepage with HTML and CSS.
